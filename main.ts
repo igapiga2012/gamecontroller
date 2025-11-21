@@ -1,5 +1,5 @@
 basic.forever(function () {
-    if (input.buttonIsPressed(Button.A) || input.buttonIsPressed(Button.B)) {
+    if (Kitronik_Game_Controller.buttonIsPressed(Kitronik_Game_Controller.ControllerButtonPins.Right) || Kitronik_Game_Controller.buttonIsPressed(Kitronik_Game_Controller.ControllerButtonPins.Left)) {
         basic.showNumber(1)
     } else {
         basic.showNumber(0)
